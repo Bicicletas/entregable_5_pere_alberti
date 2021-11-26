@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635b6560b8de5ca40bd6fcbf6663697a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 12
   turnSpeed: 20
   zMax: 450
 --- !u!1 &170076733
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f54a254c76839541a68ca393db52c42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 0}
+  obstaclePrefab: {fileID: 7254713537057693292, guid: 9c3fbc80529cd44c78c43550ed341818, type: 3}
   spawnPos: {x: 0, y: 0, z: 30}
 --- !u!4 &1624012043
 Transform:

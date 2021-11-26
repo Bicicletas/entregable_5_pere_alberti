@@ -21,10 +21,10 @@ public class SpawnManager : MonoBehaviour
         
     }
 
-    public Vector3 SpawnObstacle()
+    public void SpawnObstacle()
     {
         float randomY = Random.Range(-randomRange, randomRange);
-        return new Vector3(randomY, spawnPos.z + 50);
+        spawnPos = new Vector3(0, randomY, spawnPos.z + 50);
         Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
     }
 
